@@ -239,7 +239,7 @@ assert largest_window_sum([4, 9, 2], 1) == (9, 1)
 The function initializes the best sum from the first complete window rather than from zero.
 
 ~~~python
-assert largest_window_sum([-8, -3, -6, -2], 2) == (-5, 2)
+assert largest_window_sum([-8, -3, -6, -2], 2) == (-8, 2)
 ~~~
 
 ### Equal maximum sums
@@ -355,7 +355,7 @@ values = [-5, -2, -8, -1]
 <summary>Solution</summary>
 
 ~~~python
-assert largest_window_sum([-5, -2, -8, -1], 2) == (-3, 0)
+assert largest_window_sum([-5, -2, -8, -1], 2) == (-7, 0)
 ~~~
 
 </details>
@@ -363,6 +363,14 @@ assert largest_window_sum([-5, -2, -8, -1], 2) == (-3, 0)
 ### Exercise 4: Find the first window
 
 Print the first window of size three from:
+
+~~~python
+values = [11, 22, 33, 44, 55]
+window_size = 3
+~~~
+
+<details>
+<summary>Solution</summary>
 
 ~~~python
 values = [11, 22, 33, 44, 55]
