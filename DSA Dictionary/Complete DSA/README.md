@@ -280,7 +280,7 @@ Study these after graph traversal fundamentals are comfortable.
 These topics should be learned together with their assumptions and limitations rather than as isolated code templates.
 
 ### [16. Advanced Data Structures](<16%20Advanced%20Data%20Structures/README.md>)
- 
+
 Explore structures designed for specialized query, indexing, and connectivity problems.
 
 - Trie / prefix tree
@@ -322,18 +322,6 @@ Apply the roadmap through a structured problem set that progresses from fundamen
 - Revisit problems and solve variations without copying
 
 Treat the problem set as a practice curriculum, not as a claim that completing a fixed number of exercises guarantees interview readiness.
-
-Explore these after the core structures are well understood.
-
-- Trie / prefix tree
-- Disjoint-set union
-- Fenwick tree / Binary Indexed Tree
-- Segment tree
-- Balanced-tree concepts
-- Ordered-set / ordered-map concepts
-- Specialized indexing structures
-
-Not every structure needs to be implemented from scratch for production use. The educational objective is understanding the problem each structure solves and its operational trade-offs.
 
 ---
 
