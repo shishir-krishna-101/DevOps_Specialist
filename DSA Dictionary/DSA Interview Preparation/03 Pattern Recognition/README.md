@@ -606,5 +606,4 @@ These references verify the named Python APIs and their documented behavior. The
 ---
 
 **Previous:** [02 — Python Coding Interview](../02%20Python%20Coding%20Interview/README.md)  
-**Next:** [04 — Easy Problem Sets](../04%20Easy%20Problem%20Sets/README.md)  
 **Back to:** [DSA Interview Preparation](../README.md)
