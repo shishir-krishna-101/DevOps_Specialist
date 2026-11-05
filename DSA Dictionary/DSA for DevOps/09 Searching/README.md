@@ -755,4 +755,4 @@ The Python documentation verifies the built-in operations and `bisect` behavior.
 
 **Previous:** [08 — Sorting](../08%20Sorting/README.md)
 
-**Next:** [10 — Sliding Window Basics](../10%20Sliding%20Window%20Basics/README.md) — process small ranges of consecutive values, such as recent metric samples.
+**Next:** [10 — Stacks](../10%20Stacks/README.md) — learn the last-in, first-out pattern before queues.
