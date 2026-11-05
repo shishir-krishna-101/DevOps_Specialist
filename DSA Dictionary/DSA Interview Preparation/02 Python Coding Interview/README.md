@@ -637,7 +637,7 @@ assert first_above([40, 65, 55], 70) == -1
 
 ### Exercise 5 — Keep the highest-priority jobs
 
-Given a list of integer priorities and a positive integer `k`, return the `k) largest values in descending order. Define and test what should happen when `k` is zero, negative, or larger than the input length before implementing.
+Given a list of integer priorities and a positive integer `k`, return the `k` largest values in descending order. Define and test what should happen when `k` is zero, negative, or larger than the input length before implementing.
 
 This exercise is intended to make you compare sorting with heap-based approaches. Do not assume one is always better; explain the trade-off for the stated input sizes and requirements.
 
