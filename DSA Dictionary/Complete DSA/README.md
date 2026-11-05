@@ -49,7 +49,7 @@ A solution is not considered complete just because it produces the expected outp
 
 ## Learning Path
 
-### 1. Foundations
+### [1. Foundations](<01%20Foundations/README.md>)
 
 Start here if algorithmic problem solving is new to you.
 
@@ -63,7 +63,7 @@ Start here if algorithmic problem solving is new to you.
 - Iteration vs recursion
 - Common edge cases
 
-### 2. Arrays and Strings
+### [2. Arrays and Strings](<02%20Arrays%20and%20Strings/README.md>)
 
 Learn how to process ordered data efficiently.
 
@@ -77,7 +77,7 @@ Learn how to process ordered data efficiently.
 - Frequency counting
 - In-place transformations
 
-### 3. Hash Tables and Sets
+### [3. Hash Tables and Sets](<03%20Hash%20Tables%20and%20Sets/README.md>)
 
 Learn when fast lookup is more important than preserving order.
 
@@ -92,7 +92,7 @@ Learn when fast lookup is more important than preserving order.
 
 For Python implementations, use the language's documented dictionary and set behavior rather than assuming behavior from another language.
 
-### 4. Linked Lists
+### [4. Linked Lists](<04%20Linked%20Lists/README.md>)
 
 Understand pointer/reference-based structures and their trade-offs.
 
@@ -105,7 +105,7 @@ Understand pointer/reference-based structures and their trade-offs.
 - Cycle detection
 - Merging sorted lists
 
-### 5. Stacks and Queues
+### [5. Stacks and Queues](<05%20Stacks%20and%20Queues/README.md>)
 
 Learn structures that enforce useful processing order.
 
@@ -117,7 +117,7 @@ Learn structures that enforce useful processing order.
 - Monotonic-stack patterns
 - Breadth-first traversal foundations
 
-### 6. Recursion and Backtracking
+### [6. Recursion and Backtracking](<06%20Recursion%20and%20Backtracking/README.md>)
 
 Build the ability to reason about problems that naturally decompose into smaller problems.
 
@@ -133,7 +133,7 @@ Build the ability to reason about problems that naturally decompose into smaller
 
 Always identify the termination condition before implementing recursive logic.
 
-### 7. Sorting
+### [7. Sorting](<07%20Sorting/README.md>)
 
 Understand the main families of sorting approaches and their trade-offs.
 
@@ -149,7 +149,7 @@ Understand the main families of sorting approaches and their trade-offs.
 
 The purpose of studying simpler sorting algorithms is primarily to understand algorithmic mechanics and complexity. In production code, prefer well-tested standard-library functionality when it satisfies the requirement.
 
-### 8. Searching
+### [8. Searching](<08%20Searching/README.md>)
 
 Learn how to reduce the amount of data that must be examined.
 
@@ -162,7 +162,7 @@ Learn how to reduce the amount of data that must be examined.
 
 Before applying binary search, clearly identify the property that makes the search space monotonic or otherwise partitionable.
 
-### 9. Trees
+### [9. Trees](<09%20Trees%20and%20Binary%20Search%20Trees/README.md>)
 
 Learn hierarchical data structures and recursive traversal.
 
@@ -177,7 +177,7 @@ Learn hierarchical data structures and recursive traversal.
 - Tree height and depth
 - Recursive vs iterative traversal
 
-### 10. Heaps and Priority Queues
+### [10. Heaps and Priority Queues](<10%20Heaps%20and%20Priority%20Queues/README.md>)
 
 Learn how to repeatedly retrieve the highest- or lowest-priority item efficiently.
 
@@ -190,7 +190,7 @@ Learn how to repeatedly retrieve the highest- or lowest-priority item efficientl
 - Scheduling patterns
 - Heap-based merging
 
-### 11. Graphs
+### [11. Graphs](<11%20Graphs/README.md>)
 
 Learn how to model relationships, dependencies, and networks.
 
@@ -208,7 +208,7 @@ Learn how to model relationships, dependencies, and networks.
 
 A graph is often the right model when the problem describes relationships rather than a simple sequence or hierarchy.
 
-### 12. Greedy Algorithms
+### [12. Greedy Algorithms](<12%20Greedy%20Algorithms/README.md>)
 
 Learn when making a locally optimal choice can lead to a globally valid solution.
 
@@ -222,7 +222,7 @@ Learn when making a locally optimal choice can lead to a globally valid solution
 
 Do not label an approach greedy simply because it makes a choice at each step. The correctness argument matters.
 
-### 13. Divide and Conquer
+### [13. Divide and Conquer](<13%20Divide%20and%20Conquer/README.md>)
 
 Break a problem into smaller independent or related subproblems.
 
@@ -234,7 +234,7 @@ Break a problem into smaller independent or related subproblems.
 - Binary search
 - Recurrence intuition
 
-### 14. Dynamic Programming
+### [14. Dynamic Programming](<14%20Dynamic%20Programming/README.md>)
 
 Learn to solve problems with overlapping subproblems and reusable state.
 
@@ -264,7 +264,7 @@ What is the evaluation order?
 Can the stored state be reduced?
 ```
 
-### 15. Advanced Graph Algorithms
+### [15. Advanced Graph Algorithms](<15%20Advanced%20Graph%20Algorithms/README.md>)
 
 Study these after graph traversal fundamentals are comfortable.
 
@@ -279,7 +279,49 @@ Study these after graph traversal fundamentals are comfortable.
 
 These topics should be learned together with their assumptions and limitations rather than as isolated code templates.
 
-### 16. Advanced Data Structures
+### [16. Advanced Data Structures](<16%20Advanced%20Data%20Structures/README.md>)
+ 
+Explore structures designed for specialized query, indexing, and connectivity problems.
+
+- Trie / prefix tree
+- Disjoint-set union
+- Fenwick tree / Binary Indexed Tree
+- Segment tree
+- Balanced-tree concepts
+- Ordered-set / ordered-map concepts
+- Specialized indexing structures
+
+Not every structure needs to be implemented from scratch for production use. The educational objective is understanding the problem each structure solves and its operational trade-offs.
+
+### [17. Interview Patterns](<17%20Interview%20Patterns/README.md>)
+
+Consolidate the recurring techniques that appear across different DSA topics.
+
+- Two pointers and sliding windows
+- Prefix sums and difference arrays
+- Hash-map and set patterns
+- Fast/slow pointers and linked-list techniques
+- Merge intervals and monotonic structures
+- Binary search and boundary search
+- Heaps and Top-K selection
+- Graph traversal and dependency ordering
+- Backtracking, dynamic programming, and greedy reasoning
+- Pattern selection, complexity discussion, and interview communication
+
+Use this chapter after studying the individual structures and algorithms. Pattern recognition should support problem understanding, not replace it.
+
+### [18. DSA Practice Problems](<18%20DSA%20Practice%20Problems/README.md>)
+
+Apply the roadmap through a structured problem set that progresses from fundamentals to advanced topics.
+
+- Work through problems in increasing difficulty
+- State assumptions and constraints before choosing an approach
+- Explain the data structure, algorithm, and correctness
+- Analyze time and auxiliary space
+- Test normal, boundary, and adversarial cases
+- Revisit problems and solve variations without copying
+
+Treat the problem set as a practice curriculum, not as a claim that completing a fixed number of exercises guarantees interview readiness.
 
 Explore these after the core structures are well understood.
 
@@ -481,7 +523,11 @@ Advanced Graphs
    ↓
 Advanced Data Structures
    ↓
-Interview + Project Practice
+Interview Patterns
+   ↓
+DSA Practice Problems
+   ↓
+Projects and independent variations
 ```
 
 Do not rush into advanced topics if the fundamentals are weak. Strong problem solving comes from repeatedly applying the basics to increasingly difficult constraints.
@@ -518,7 +564,7 @@ When a future lesson depends on a specific language, library, platform, or exter
 
 ## Next Step
 
-After completing this roadmap, continue into individual topic lessons and exercises. Each lesson should follow the repository's quality standard:
+Follow the linked topic lessons in sequence, then consolidate your learning with [Interview Patterns](<17%20Interview%20Patterns/README.md>) and [DSA Practice Problems](<18%20DSA%20Practice%20Problems/README.md>). Build a small project when you can explain the relevant structures, algorithms, correctness, and trade-offs. Each lesson should follow the repository's quality standard:
 
 ```text
 Concept
