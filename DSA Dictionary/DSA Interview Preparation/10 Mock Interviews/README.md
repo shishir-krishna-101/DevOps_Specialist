@@ -572,7 +572,7 @@ def rolling_failure_rates(
 assert rolling_failure_rates(
     [(1, False), (2, True), (4, True), (5, False)],
     3,
-) == [0.0, 0.5, 0.0, 0.5]
+) == [0.0, 0.5, 1.0, 0.5]
 
 assert rolling_failure_rates([], 5) == []
 assert rolling_failure_rates([(1, True), (1, False)], 2) == [1.0, 0.5]
