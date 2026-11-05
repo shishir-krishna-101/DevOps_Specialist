@@ -34,9 +34,8 @@ Before coding, answer these questions:
 | 8 | N-Queens | Backtracking + pruning | Search a constrained state space |
 | 9 | Edit distance | Dynamic programming | Model insert, delete, and replace transitions |
 | 10 | Weighted interval scheduling | DP + binary search | Combine compatible jobs optimally |
-| 11 | Maximum profit with prerequisites? | — | Reserved for future expansion |
 
-This set contains ten complete problems. The final row is intentionally not a placeholder exercise; additional advanced problems can be added in a later revision after their contracts and solutions are designed.
+This section contains ten complete problems. It is a curated selection, not a claim that these ten problems cover every advanced interview topic.
 
 ---
 
@@ -349,7 +348,7 @@ The stale-entry check is necessary because the implementation pushes a new heap 
 
 Let V be the number of vertices and E the number of directed edges:
 
-- **Time:** O((V + E) log V) for a binary heap with lazy duplicate entries; a looser common bound is O((V + E) log E) depending on graph representation and edge count.
+- **Time:** O((V + E) log(E + 1)) with lazy duplicate heap entries. For a simple graph, this is commonly expressed as O((V + E) log V).
 - **Auxiliary space:** O(V + E) including the heap in the worst case; the adjacency list is input storage.
 
 **Critical warning:** Dijkstra is not correct for graphs with negative edge weights. Use an algorithm designed for the relevant weight model, such as Bellman–Ford when negative edges are permitted and negative-cycle behavior must be considered.
