@@ -1,8 +1,8 @@
 # DSA Dictionary
 
-A learner-first roadmap for Data Structures and Algorithms (DSA), organized around two goals:
+A learner-first roadmap for Data Structures and Algorithms (DSA), organized into three complementary learning paths:
 
-> **Learn the problem-solving patterns useful for DevOps first, then continue into Complete DSA.**
+> **Build practical foundations for DevOps, deepen your algorithmic knowledge, then practise applying it in coding interviews.**
 
 This file is the navigation and study guide for both branches. It focuses on understanding how data is represented, how algorithms work, how to reason about complexity, and how to turn a problem into a reproducible solution.
 
@@ -14,14 +14,15 @@ Use this loop for every topic:
 
 Do not move forward simply because you can reproduce an implementation. You should be able to explain the data structure or algorithm, trace it on a small example, identify its time and space costs, test boundary cases, and recognize when the pattern is useful.
 
-## Two-stage structure
+## Three complementary learning paths
 
-| Path | What it contains |
-|---|---|
-| **DSA for DevOps** | Selected data structures, algorithms, complexity concepts, and problem-solving patterns that support scripting, automation, log processing, configuration handling, scheduling, dependency reasoning, and operational tooling. |
-| **Complete DSA** | A broader progression through data structures, algorithms, algorithmic techniques, and interview-oriented problem solving. |
+| Path | What it contains | When to use it |
+|---|---|---|
+| **DSA for DevOps** | Beginner-first Python exercises, selected data structures, and operational problem-solving examples. | Start here if you are new to DSA or want practical foundations for automation and operations. |
+| **Complete DSA** | A broader progression through data structures, algorithms, complexity, and advanced problem-solving techniques. | Use it to build deeper knowledge or look up a concept when a practice problem exposes a gap. |
+| **DSA Interview Preparation** | Pattern recognition, curated easy-to-advanced problems, DevOps/SRE scenarios, debugging, timed assessments, and mock interviews. | Use it to practise applying DSA knowledge under interview-style constraints. |
 
-The second path is a continuation, not a separate beginner course. Shared fundamentals should be learned once.
+These paths are complementary rather than three courses that must be completed in strict sequence. Learn shared fundamentals once, then move between concept study and deliberate interview practice as needed.
 
 ---
 
@@ -347,15 +348,27 @@ These are repository learning applications, not claims that a particular DevOps 
 
 ## DSA for DevOps
 
+[Open DSA for DevOps](DSA%20for%20DevOps/README.md)
+
 `DSA Dictionary/DSA for DevOps/`
 
 Use this path when your immediate goal is stronger problem solving for automation and operational engineering.
 
 ## Complete DSA
 
+[Open Complete DSA](Complete%20DSA/README.md)
+
 `DSA Dictionary/Complete DSA/`
 
-Use this path when you want the broader DSA curriculum and interview-oriented preparation.
+Use this path when you want the broader DSA curriculum, from foundations through advanced structures and algorithms.
+
+## DSA Interview Preparation
+
+[Open DSA Interview Preparation](DSA%20Interview%20Preparation/README.md)
+
+`DSA Dictionary/DSA Interview Preparation/`
+
+Use this path when you are ready to apply concepts through pattern recognition, problem sets, DevOps/SRE coding scenarios, timed assessments, and mock interviews.
 
 ---
 
